@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gmail.friolita3.menu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="10"
+        android:title="pengaturan"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="30"
+        android:title="about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/merk_hp"
+        android:orderInCategory="30"
+        android:icon="@drawable/ic_phone_android_black_24dp"
+        android:title="@string/merk_hp"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
